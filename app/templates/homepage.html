@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Authentication App</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/homepage.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <p class="subtitle">
+            Please register for a new account or sign in to continue.
+        </p>
+        
+        <div class="buttons">
+            <a href="/register" class="btn btn-primary">
+                Register
+            </a>
+            <a href="/login" class="btn btn-secondary">
+                Sign In
+            </a>
+        </div>
+    </div>
+</body>
+</html>
